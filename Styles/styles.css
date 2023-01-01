@@ -48,6 +48,22 @@
     max-width: 1000px;
     margin: auto;
 }
+.cardsa
+{
+    display: flex;
+    min-height: 30vh;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
+}
+.contCard3
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    max-width: 1000px;
+    margin: auto;
+}
 .imgn1
 {
     background: url(/images/build.png);
@@ -84,6 +100,25 @@
     background-position: center;
     transition: .2s;
 }
+.imgn5
+{
+    background: url(/images/decano.jpg);
+    width: 50%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+    
+}
+.imgn6
+{
+    background: url(/images/subdecano.jpeg);
+    width: 50%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
 .card
 {
     box-shadow: 0 1px 6px 1px rgb(88, 88, 88);
@@ -98,6 +133,13 @@
 {
     width: 100%;
     height: 180px;
+}
+.cardHeader2
+{
+    display: grid;
+    width: 100%;
+    height: 300px;
+    justify-items: center;
 }
 .cardBody
 {
