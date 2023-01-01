@@ -4,11 +4,7 @@
 }
 .contentSection
 {
-    padding-top: 70px;
-}
-.title1
-{
-    background-color: antiquewhite;
+    padding-top: 80px;
     padding-left: 30px;
 }
 .t2
@@ -20,36 +16,110 @@
     font-size:x-large;
     display: inline-block;
 }
+.cards
+{
+    display: flex;
+    min-height: 50vh;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
+}
 .contCard
 {
     display: grid;
+    grid-template-columns: repeat(4,1fr);
     gap: 1rem;
-    grid-auto-rows: 22rem;
-    grid-template-columns: repeat(auto-fill, minmax(16rem,1fr));
-    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
 }
-.contCard card
+.cards2
 {
-    width: 16rem;
-}
-.contCard1
-{
-    display: grid;
-    gap: 1rem;
-    grid-column: 1fr 1fr;
-    padding: 30px;
+    display: flex;
+    min-height: 30vh;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
 }
 .contCard2
 {
     display: grid;
+    grid-template-columns: repeat(2,1fr);
     gap: 1rem;
-    grid-column: 1fr 1fr;
-    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
 }
-.contCard3
+.imgn1
 {
-    display: grid;
-    gap: 1rem;
-    grid-column: 1fr 1fr;
-    padding: 30px;
+    background: url(/images/build.png);
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.imgn2
+{
+    background: url(/images/teac.png);
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.imgn3
+{
+    background: url(/images/stu.png);
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.imgn4
+{
+    background: url(/images/gra.jpeg);
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.card
+{
+    box-shadow: 0 1px 6px 1px rgb(88, 88, 88);
+    transition: .2s;
+}
+.card:hover
+{
+    transform: translateY(-4px);
+    box-shadow: 0 1px 6px 1px rgb(0,0, 45);
+}
+.cardHeader
+{
+    width: 100%;
+    height: 180px;
+}
+.cardBody
+{
+    padding: 15px;
+    text-align: center;
+}
+
+@media (max-width: 770px)
+{
+    .contCard
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .contCard2
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (max-width: 600px)
+{
+    .contCard
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
 }
