@@ -1,11 +1,28 @@
 .imgBuilds
 {
-    height: 300px;
+    height: 250px;
 }
-.contentSection
+.contentSection1
 {
     padding-top: 80px;
-    padding-left: 30px;
+    /* padding-left: 30px; */
+    align-items: center;
+    justify-content: center;
+}
+.contentSection2
+{
+    padding-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.contentSection3
+{
+    padding-top: 80px;
+}
+.contentSectionC
+{
+    list-style: circle;
+    padding-top: 80px;
 }
 .t2
 {
@@ -16,13 +33,14 @@
     font-size:x-large;
     display: inline-block;
 }
+/* index */
 .cards
 {
     display: flex;
     min-height: 50vh;
+    padding: 30px 15px;
     align-items: center;
     justify-content: center;
-    padding: 30px 15px;
 }
 .contCard
 {
@@ -32,13 +50,14 @@
     max-width: 1000px;
     margin: auto;
 }
+/* mision vision */
 .cards2
 {
     display: flex;
     min-height: 30vh;
+    padding: 30px 15px;
     align-items: center;
     justify-content: center;
-    padding: 30px 15px;
 }
 .contCard2
 {
@@ -48,13 +67,14 @@
     max-width: 1000px;
     margin: auto;
 }
+/* administracion */
 .cardsa
 {
     display: flex;
     min-height: 30vh;
+    padding: 30px 15px;
     align-items: center;
     justify-content: center;
-    padding: 30px 15px;
 }
 .contCard3
 {
@@ -64,6 +84,41 @@
     max-width: 1000px;
     margin: auto;
 }
+.contCard3 .descp
+{
+    text-align: justify;
+}
+.contCard5
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    max-width: 1000px;
+    margin: auto;
+}
+.contCard5 .descp
+{
+    text-align: justify;
+}
+/* carreras */
+.cardscr
+{
+    display: flex;
+    min-height: 100vh;
+    padding: 30px 15px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.contCard4
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    max-width: 1000px;
+    margin: auto;
+}
+/* index imgs */
 .imgn1
 {
     background: url(/images/build.png);
@@ -100,12 +155,14 @@
     background-position: center;
     transition: .2s;
 }
+/* administracion imgs */
 .imgn5
 {
     background: url(/images/decano.jpg);
-    width: 50%;
+    width: 100%;
     height: 300px;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     transition: .2s;
     
@@ -113,15 +170,130 @@
 .imgn6
 {
     background: url(/images/subdecano.jpeg);
-    width: 50%;
+    width: 100%;
     height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .2s;
+}
+/* carreras imgs */
+.imgn7
+{
+    background: url(/images/soft.png);
+    width: 100%;
+    height: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    transition: .2s;
+}
+.imgn8
+{
+    background: url(/images/telec.png);
+    width: 100%;
+    height: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    transition: .2s;
+}
+.imgn9
+{
+    background: url(/images/electronica.png);
+    width: 100%;
+    height: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    transition: .2s;
+}
+.imgn10
+{
+    background: url(/images/tele.png);
+    width: 100%;
+    height: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    transition: .2s;
+}
+.imgn11
+{
+    background: url(/images/dgraf.png);
+    width: 100%;
+    height: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    transition: .2s;
+}
+.imgn12
+{
+    background: url(/images/tics.png);
+    width: 100%;
+    height: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    transition: .2s;
+}
+.imgn13
+{
+    background: url(/images/elec.png);
+    width: 100%;
+    height: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    transition: .2s;
+}
+/* software */
+.imgn14
+{
+    background: url(/images/Portada-Software.png);
+    width: 100%;
+    height: 500px;
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    */
     background-size: cover;
     background-position: center;
+    transition: .2s;
+}
+.imgn15
+{
+    background: url(/images/ingreso.png);
+    width: 100%;
+    height: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    transition: .2s;
+}
+.imgn16
+{
+    background: url(/images/egreso.png);
+    width: 100%;
+    height: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
     transition: .2s;
 }
 .card
 {
     box-shadow: 0 1px 6px 1px rgb(88, 88, 88);
+    border-radius: 6px;
     transition: .2s;
 }
 .card:hover
@@ -139,12 +311,46 @@
     display: grid;
     width: 100%;
     height: 300px;
-    justify-items: center;
+    align-items: center;
+}
+.cardHeader3
+{
+    display: grid;
+    background-color: #D62828;
+    border-radius: 6px;
+    width: 100%;
+    height: 150px;   
+    align-items: center;
 }
 .cardBody
 {
     padding: 15px;
-    text-align: center;
+    text-align:center;
+}
+.contCard4 .cardBody h3{
+    margin-bottom: 15px;
+}
+.contCard4 .cardBody p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.cardBody .link
+{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #165975;
+    color: white;
+    width: 50%;
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: 0 1px 6px 1px rgb(88, 88, 88);
+    transition: .2s;
+}
+.cardBody .link:hover
+{
+    background-color: #1e7aa1;
+    transform: translateY(-2px);
 }
 
 @media (max-width: 770px)
@@ -157,11 +363,26 @@
     {
         grid-template-columns: repeat(1,1fr);
     }
+    .contCard3
+    {
+        grid-template-columns: repeat(1,1fr);
+        overflow: hidden;
+    }
+    .contCard4
+    {
+        grid-template-columns: repeat(2,1fr);
+        overflow: hidden;
+    }
 }
 @media (max-width: 600px)
 {
     .contCard
     {
         grid-template-columns: repeat(1,1fr);
+    }
+    .contCard4
+    {
+        grid-template-columns: repeat(1,1fr);
+        overflow: hidden;
     }
 }
