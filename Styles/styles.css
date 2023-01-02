@@ -352,7 +352,53 @@
     background-color: #1e7aa1;
     transform: translateY(-2px);
 }
-
+.contain
+{
+    display: flex;
+    min-height: 80vh;
+    padding: 30px 15px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.cardHead
+{
+    border-right: 1px solid #ddd;
+    text-align: center;
+}
+.cardHead, .descripcion
+{
+    padding: 20px;
+}
+.cardHead img
+{
+    border-radius: 6px;
+    height: 200px;
+    transition: .2s;
+}
+.cardHead h5
+{
+    color: #FF0000;
+    
+}
+.descripcion
+{
+    position: relative;
+}
+.descripcion p
+{
+    
+    text-align: justify;
+}
+.cardContain
+{
+    display: flex;
+    width: 600px;
+    height: auto;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 1px 6px 1px rgb(88, 88, 88);
+}
 @media (max-width: 770px)
 {
     .contCard
@@ -373,6 +419,19 @@
         grid-template-columns: repeat(2,1fr);
         overflow: hidden;
     }
+    .contCard5
+    {
+        grid-template-columns: repeat(1,1fr);
+        overflow: hidden;
+    }
+    .cardContain
+    {
+        display: block;
+    }
+    .cardHead
+    {
+        padding: 20px 20px 5px 20px;
+    }
 }
 @media (max-width: 600px)
 {
@@ -381,6 +440,11 @@
         grid-template-columns: repeat(1,1fr);
     }
     .contCard4
+    {
+        grid-template-columns: repeat(1,1fr);
+        overflow: hidden;
+    }
+    .contCard5
     {
         grid-template-columns: repeat(1,1fr);
         overflow: hidden;
