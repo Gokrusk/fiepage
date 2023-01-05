@@ -121,7 +121,7 @@
 /* index imgs */
 .imgn1
 {
-    background: url(/images/build.PNG);
+    background: url(/images/build.png);
     width: 100%;
     height: 180px;
     background-size: cover;
@@ -130,7 +130,7 @@
 }
 .imgn2
 {
-    background: url(/images/teac.PNG);
+    background: url(/images/teac.png);
     width: 100%;
     height: 180px;
     background-size: cover;
@@ -139,7 +139,7 @@
 }
 .imgn3
 {
-    background: url(/images/stu.PNG);
+    background: url(/images/stu.png);
     width: 100%;
     height: 180px;
     background-size: cover;
@@ -148,7 +148,7 @@
 }
 .imgn4
 {
-    background: url(/images/gra.JPEG);
+    background: url(/images/gra.jpeg);
     width: 100%;
     height: 180px;
     background-size: cover;
@@ -158,7 +158,7 @@
 /* administracion imgs */
 .imgn5
 {
-    background: url(/images/decano.JPG);
+    background: url(/images/decano.jpg);
     width: 100%;
     height: 300px;
     background-size: contain;
@@ -169,7 +169,7 @@
 }
 .imgn6
 {
-    background: url(/images/subdecano.JPEG);
+    background: url(/images/subdecano.jpeg);
     width: 100%;
     height: 300px;
     background-size: contain;
@@ -180,7 +180,7 @@
 /* carreras imgs */
 .imgn7
 {
-    background: url(/images/soft.PNG);
+    background: url(/images/soft.png);
     width: 100%;
     height: 60%;
     background-size: contain;
@@ -191,7 +191,7 @@
 }
 .imgn8
 {
-    background: url(/images/telec.PNG);
+    background: url(/images/telec.png);
     width: 100%;
     height: 60%;
     background-size: contain;
@@ -202,7 +202,7 @@
 }
 .imgn9
 {
-    background: url(/images/electronica.PNG);
+    background: url(/images/electronica.png);
     width: 100%;
     height: 60%;
     background-size: contain;
@@ -213,7 +213,7 @@
 }
 .imgn10
 {
-    background: url(/images/tele.PNG);
+    background: url(/images/tele.png);
     width: 100%;
     height: 60%;
     background-size: contain;
@@ -224,7 +224,7 @@
 }
 .imgn11
 {
-    background: url(/images/dgraf.PNG);
+    background: url(/images/dgraf.png);
     width: 100%;
     height: 60%;
     background-size: contain;
@@ -235,7 +235,7 @@
 }
 .imgn12
 {
-    background: url(/images/tics.PNG);
+    background: url(/images/tics.png);
     width: 100%;
     height: 60%;
     background-size: contain;
@@ -246,7 +246,7 @@
 }
 .imgn13
 {
-    background: url(/images/elec.PNG);
+    background: url(/images/elec.png);
     width: 100%;
     height: 60%;
     background-size: contain;
@@ -258,7 +258,7 @@
 /* software */
 .imgn14
 {
-    background: url(/images/Portada-Software.PNG);
+    background: url(/images/Portada-Software.png);
     width: 100%;
     height: 500px;
     background-size: cover;
@@ -267,7 +267,7 @@
 }
 .imgn15
 {
-    background: url(/images/ingreso.PNG);
+    background: url(/images/ingreso.png);
     width: 100%;
     height: 60%;
     background-size: contain;
@@ -278,7 +278,7 @@
 }
 .imgn16
 {
-    background: url(/images/egreso.PNG);
+    background: url(/images/egreso.png);
     width: 100%;
     height: 60%;
     background-size: contain;
