@@ -352,7 +352,7 @@
 .contain
 {
     display: flex;
-    min-height: 80vh;
+    /* min-height: 80vh; */
     padding: 30px 15px;
     align-items: center;
     justify-content: center;
@@ -439,6 +439,10 @@
     .cardHeader3
     {
         height: 100px;
+    }
+    .contentSectionC .contain
+    {
+        font-size: 12px;
     }
     .cardContain
     {
