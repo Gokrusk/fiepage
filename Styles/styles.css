@@ -411,9 +411,14 @@
 }
 @media (max-width: 770px)
 {
+    *
+    {
+        font-size: 13px;
+    }
     .contCard
     {
         grid-template-columns: repeat(2,1fr);
+        min-height: 10vh;
     }
     .contCard2
     {
@@ -432,13 +437,24 @@
         grid-template-columns: repeat(1,1fr);
         font-size: 12px;
     }
+    .cardHeader .imgn1, .imgn2, .imgn3, .imgn4
+    {
+        height: 100px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; 
+    }
+    .contCard .cardHeader
+    {
+        height: 80px;
+    }
+    .cards
+    {
+        min-height: 30vh;
+    }
     .cardHeader3
     {
         height: 100px;
-    }
-    .contentSectionC .contain
-    {
-        font-size: 12px;
     }
     .cardContain
     {
@@ -455,10 +471,6 @@
 }
 @media (max-width: 600px)
 {
-    .contCard
-    {
-        grid-template-columns: repeat(1,1fr);
-    }
     .contCard4
     {
         grid-template-columns: repeat(1,1fr);
