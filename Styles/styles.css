@@ -383,9 +383,9 @@
 .cardHead {
   border-right: 1px solid #ddd;
   text-align: center;
+  font-size: 12px;
 }
-.cardHead,
-.descripcion {
+.cardHead, .descripcion {
   padding: 20px;
 }
 .cardHead img {
