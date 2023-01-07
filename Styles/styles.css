@@ -240,7 +240,58 @@
 }
 /* software */
 .imgn14 {
-  background: url(/images/Portada-Software.png);
+  background: url(/images/portSoft.PNG);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.2s;
+}
+/* telecomunicaciones */
+.imgn17 {
+  background: url(/images/portTelec.PNG);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.2s;
+}
+/* electronica */
+.imgn18 {
+  background: url(/images/portElect.PNG);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.2s;
+}
+/* telemática */
+.imgn19 {
+  background: url(/images/portTele.PNG);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.2s;
+}
+.imgn20 {
+  background: url(/images/portDgraf.PNG);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.2s;
+}
+.imgn21 {
+  background: url(/images/portTics.PNG);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.2s;
+}
+.imgn22 {
+  background: url(/images/portElec.PNG);
   width: 100%;
   height: 500px;
   background-size: cover;
@@ -346,7 +397,9 @@
   color: #ff0000;
 }
 .descripcion {
+  display: grid;
   position: relative;
+  align-items: center;
 }
 .descripcion p {
   text-align: justify;
@@ -360,7 +413,7 @@
   box-shadow: 0 1px 6px 1px rgb(88, 88, 88);
 }
 @media (max-width: 1150px) {
-  .imgn14 {
+  .imgn14, .imgn17, .imgn18, .imgn19, .imgn20, .imgn21, .imgn22 {
     height: 450px;
   }
   .imgBuilds {
@@ -368,7 +421,7 @@
   }
 }
 @media (max-width: 950px) {
-  .imgn14 {
+  .imgn14, .imgn17, .imgn18, .imgn19, .imgn20, .imgn21, .imgn22 {
     height: 400px;
   }
   .imgBuilds {
@@ -423,7 +476,7 @@
   .cardHead {
     padding: 20px 20px 5px 20px;
   }
-  .imgn14 {
+  .imgn14, .imgn17, .imgn18, .imgn19, .imgn20, .imgn21, .imgn22 {
     height: 350px;
   }
 }
@@ -434,7 +487,7 @@
   .contCard5 {
     grid-template-columns: repeat(1, 1fr);
   }
-  .imgn14 {
+  .imgn14, .imgn17, .imgn18, .imgn19, .imgn20, .imgn21, .imgn22  {
     height: 250px;
   }
   .imgBuilds {
@@ -445,7 +498,7 @@
   }
 }
 @media (max-width: 450px) {
-  .imgn14 {
+  .imgn14, .imgn17, .imgn18, .imgn19, .imgn20, .imgn21, .imgn22 {
     height: 150px;
   }
   .imgBuilds {
