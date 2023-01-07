@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function (e) {
-    const parrafos = document.querySelectorAll('.descp');
+    const parrafos = document.querySelectorAll(".descp");
 
     let alturas = [];
     let maxAlt = 0;

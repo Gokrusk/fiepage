@@ -106,9 +106,9 @@ body
     cursor: pointer;
 }
 .footer-section {
-    display: flex;
+    /* display: flex;
     background: #acabab;
-    height: 80px;
+    height: 80px; */
     align-items: center;
     justify-content: center;
   }
@@ -120,7 +120,7 @@ body
   .copyright-text p {
     font-size: 12px;
     font-weight: 600;
-    color: #ffffff;
+    /* color: #ffffff; */
   }
 @media screen and (max-width: 1280px){
 

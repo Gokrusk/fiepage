@@ -25,11 +25,11 @@
   padding-top: 80px;
 }
 .title1 {
-  padding-left: 20px;
+  padding: 30px;
 }
 .title1 h1 {
   font-size: x-large;
-  display: inline-block;
+  display: inline;
 }
 .t2,
 .t3 {
@@ -37,7 +37,10 @@
   font-size: x-large;
 }
 .t3 {
-  padding-left: 20px;
+  margin: 0;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
 }
 /* index */
 .cards {
@@ -377,7 +380,7 @@
     font-size: 13px;
   }
   .imgBuilds {
-    height: 400px;
+    height: 500px;
   }
   .contCard {
     grid-template-columns: repeat(2, 1fr);
@@ -446,6 +449,6 @@
     height: 150px;
   }
   .imgBuilds {
-    height: 200px;
+    height: 250px;
   }
 }
