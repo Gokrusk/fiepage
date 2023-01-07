@@ -11,16 +11,11 @@ body
 }
 .head1
 {
-    position: fixed;
-    top: 0;
-    width: 100%;
     z-index: 1;
     background-color: #c90b0b;
-    opacity: 0.9;
 }
 .head2
 {
-    position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
@@ -29,7 +24,6 @@ body
 }
 .head3
 {
-    position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
@@ -106,21 +100,17 @@ body
     cursor: pointer;
 }
 .footer-section {
-    /* display: flex;
-    background: #acabab;
-    height: 80px; */
     align-items: center;
     justify-content: center;
   }
-  .copyright-text
+  .footer-text
   {
     text-align: center;
     width: 100%;
   }
-  .copyright-text p {
+  .footer-text p {
     font-size: 12px;
     font-weight: 600;
-    /* color: #ffffff; */
   }
 @media screen and (max-width: 1280px){
 
