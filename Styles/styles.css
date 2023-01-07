@@ -437,6 +437,9 @@
   .imgBuilds {
     height: 300px;
   }
+  .copyright-text p {
+    font-size: 10px;
+  }
 }
 @media (max-width: 450px) {
   .imgn14 {

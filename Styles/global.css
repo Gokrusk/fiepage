@@ -118,7 +118,7 @@ body
     width: 100%;
   }
   .copyright-text p {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     color: #ffffff;
   }
@@ -157,10 +157,5 @@ body
     .navTitles li{
 
         padding: 15px 0px;
-    }
-    
-    *
-    {
-        /* font-size: 12px; */
     }
 }
