@@ -104,11 +104,10 @@
 .cardscr
 {
     display: flex;
-    min-height: 100vh;
+    min-height: 30vh;
     padding: 30px 15px;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
 }
 .contCard4
 {
@@ -309,6 +308,7 @@
     width: 100%;
     height: 300px;
     align-items: center;
+    padding-top: 5px;
 }
 .cardHeader3
 {
@@ -352,7 +352,6 @@
 .contain
 {
     display: flex;
-    /* min-height: 80vh; */
     padding: 30px 15px;
     align-items: center;
     justify-content: center;
@@ -423,17 +422,14 @@
     .contCard3
     {
         grid-template-columns: repeat(1,1fr);
-        overflow: hidden;
     }
     .contCard4
     {
         grid-template-columns: repeat(2,1fr);
-        overflow: hidden;
     }
     .contCard5
     {
         grid-template-columns: repeat(1,1fr);
-        overflow: hidden;
         font-size: 12px;
     }
     .cardHeader3
@@ -466,12 +462,10 @@
     .contCard4
     {
         grid-template-columns: repeat(1,1fr);
-        overflow: hidden;
     }
     .contCard5
     {
         grid-template-columns: repeat(1,1fr);
-        overflow: hidden;
     }
     .imgn14
     {
