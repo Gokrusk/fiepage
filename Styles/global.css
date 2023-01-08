@@ -9,6 +9,9 @@ body
     padding: 0;
     background-color: #fefefe;
 }
+body.hide-scroll::-webkit-scrollbar {
+    display: none;
+  }
 .head1
 {
     z-index: 1;
@@ -16,19 +19,13 @@ body
 }
 .head2
 {
-    top: 0;
-    width: 100%;
     z-index: 1;
     background-color: green;
-    opacity: 0.9;
 }
 .head3
 {
-    top: 0;
-    width: 100%;
     z-index: 1;
     background-color: gray;
-    opacity: 0.9;
 }
 #logo
 {
@@ -117,9 +114,7 @@ body
     .container{
 
         width: 100%;
-
     }
-
 }
 @media screen and (max-width: 770px){
 

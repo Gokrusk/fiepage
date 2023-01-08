@@ -1,4 +1,4 @@
-//header
+// header
 let a = document.querySelector(".head1")
 let b = document.querySelector(".head2")
 let c = document.querySelector(".head3")
@@ -14,10 +14,12 @@ header.forEach(element => {
     }
 });
 
-//footer
+// footer
 let footer = document.querySelector(".footer-section")
 let footerText = document.querySelector(".footer-text")
 footer.style.background = "#acabab"
 footer.style.display = "flex"
 footer.style.height = "80px"
 footerText.style.color = "#ffffff"
+
+window.addEventListener("load", fadeOutEffect);
