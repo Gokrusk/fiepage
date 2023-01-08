@@ -20,6 +20,7 @@
   background: url(/images/edificio1.jpg)
     fixed center;
   background-size: cover;
+  filter: blur(4px);
 }
 .about-us .text{
   display: flex;
@@ -56,6 +57,7 @@
   background: url(/images/edificio2.jpeg)
     fixed center;
   background-size: cover;
+  filter: blur(4px);
 }
 .info .text .t3{
   color: #ff0000;
